@@ -37,7 +37,7 @@
     > For the scope: I want to make each thread use a globally allocated memory block.
     > 
     > The values of measurement:  
-    > I choose the "transfer rate" to measure the EC2 Memory performance (MB/s).
+    > I choose the "transfer rate" to measure the EC2 Memory performance (MB/s). Transfer rate is a standard metric that is used to measure the speed at which   data or information travels from one location to another.
 
 2. (1 mark) Run your measurement tool on general purpose `t3.medium`, `m5.large`, and `c5d.large` Linux instances, respectively, and find the performance differences among these instances. Launch all the instances in the **US East (N. Virginia)** region. Does the performance of EC2 instances increase commensurate with the increase of the number of vCPUs and memory resource?
 
